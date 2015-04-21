@@ -140,4 +140,14 @@ tidy_data<-data %>%
 write.table(tidy_data,"tidydata.txt",row.name=FALSE)
 
 ```
-
+   Activity Subject TimeBodyAccelerometerMeanX TimeBodyAccelerometerMeanY
+1    LAYING       1                  0.2215982                -0.04051395
+2    LAYING       2                  0.2813734                -0.01815874
+3    LAYING       3                  0.2755169                -0.01895568
+4    LAYING       4                  0.2635592                -0.01500318
+5    LAYING       5                  0.2783343                -0.01830421
+6    LAYING       6                  0.2486565                -0.01025292
+7    LAYING       7                  0.2501767                -0.02044115
+8    LAYING       8                  0.2612543                -0.02122817
+9    LAYING       9                  0.2591955                -0.02052682
+10   LAYING      10                  0.2802306                -0.02429448
