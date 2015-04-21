@@ -36,7 +36,7 @@ y_train<-read.table("train/y_train.txt")
 y_test<-read.table("test/y_test.txt")
 ```
 
-**2. Merge above data sets in to one data frame by feature, subject and actibity label. **
+###2. Merge above data sets in to one data frame by feature, subject and actibity label. 
 
    + Stack train and test feature sets. 
       
