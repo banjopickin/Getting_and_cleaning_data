@@ -113,7 +113,7 @@ data$Activity<-as.character(factor(data$Activity,levels=1:6,labels=activity_labe
   
   - Remove other non-alphabetic symbols 
    
-  - To make the variables more readable, all the variable names are written in *CamelCase* format.
+  - To make the variables more readable, all the variable names are written in **CamelCase** format.
   
 ```{r}
 names(data)<-gsub("^t","Time",names(data))
