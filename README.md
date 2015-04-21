@@ -1,7 +1,7 @@
----
-title: "run_analysis.R Walkthrough"
-output: html_document
----
+
+#run_analysis.R Walkthrough
+
+
 
 This document aims to explain how "run_analysis.R" script works. 
 
