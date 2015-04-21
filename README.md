@@ -19,7 +19,7 @@ library(tidyr)
 
 ##Merge the training and the test sets to create one data set.
 
-**1. Read relevent txt files and assign them with appropriate names. **
+###1. Read relevent txt files and assign them with appropriate names. 
 
    + "train/X_train.txt" and "test/X_test.txt" : the main features of traning and testing sets.
    
