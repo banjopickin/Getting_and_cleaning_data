@@ -1,7 +1,5 @@
----
-title: "Codebook"
-output: html_document
----
+#Codebook
+
 
 The data set "tidy_data.txt" contains 68 variables, they are listed as below:
 
