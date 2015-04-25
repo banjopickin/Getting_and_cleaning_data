@@ -1,4 +1,4 @@
-#Codebook
+#Code Book
 
 
 The data set "tidy_data.txt" contains 68 variables, they are listed as below:
