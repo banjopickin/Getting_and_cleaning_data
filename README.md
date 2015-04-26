@@ -140,3 +140,13 @@ tidy_data<-data %>%
 write.table(tidy_data,"tidydata.txt",row.name=FALSE)
 
 ```
+
+## Read data in R 
+
+```{r}
+address<-"https://s3.amazonaws.com/coursera-uploads/user-4e2984d57e7ffbc28e9fe1eb/973500/asst-3/54cc4470e7d911e48fcb8555441fdcce.txt"
+address <- sub("^https", "http", address)
+data <- read.table(url(address), header = TRUE)
+View(data)
+
+```
